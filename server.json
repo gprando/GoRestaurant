@@ -23,30 +23,6 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "id": 9,
-      "name": "Carne",
-      "description": "Carne italiana.",
-      "price": "25.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
-    },
-    {
-      "name": "Carne",
-      "description": "Carne italiana.",
-      "price": "25.90",
-      "available": true,
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
-      "id": 11
-    },
-    {
-      "name": "macarrão ",
-      "price": "17,85",
-      "image": "https://image.freepik.com/fotos-gratis/macarrao-espaguete-com-camarao-tomate-e-salsa-refeicao-saudavel-comida-italiana_2829-6907.jpg",
-      "description": "Mararrão delicioso",
-      "available": true,
-      "id": 12
     }
   ]
 }
