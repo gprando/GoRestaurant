@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/assets/logo.svg" alt="GoRestaurant" width="400">
+  <img src="./web/src/assets/logo.png" alt="GoRestaurant" width="400">
 <br>
 </h1>
 
@@ -40,7 +40,7 @@ GoRestaurant é um projeto controle de comidas para cozinha.
 
 ## Getting started
 
-<h1 align="center"><img align="center" src="./src/assets/gorestaurant.gif" alt="GoRestaurant gif"  width="500"></img></h1>
+<h1 align="center"><img align="center" src="./web/src/assets/gorestaurant.gif" alt="GoRestaurant gif"  width="500"></img></h1>
 
 ## Instalação - Projeto
 
@@ -56,7 +56,7 @@ git clone https://github.com/gprando/GoRestaurant
 ```
 
 ## Backend
-Para executar o **Servidor** fake execute:
+Para esta aplicação utilizamos um **Servidor** fake de dados, para rodar execute:
 
 ```bash
 yarn json-server server.json -p 3333
@@ -65,10 +65,39 @@ yarn json-server server.json -p 3333
 ### Frontend
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
-yarn
+cd frontend
+
+## iniciar o backend fake
+yarn json-server server.json -p 3333
+
+## instalar as dependências
+yarn 
+
+#inciar a aplicação react
 yarn start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto.
+
+### Mobile
+
+* Precisará ter instalado em seu celular o app expo.  
+
+Para iniciar o **Mobile** do React-Native utilize os comandos:
+
+```bash
+cd mobile
+## iniciar o backend fake
+yarn json-server server.json -p 3333
+
+## instalar as dependências
+yarn 
+
+#inciar a aplicação react
+yarn start
+```
+Abra a app Expo e leia o qr code do app.
+
+<h1 align="center"><img align="center" src="./mobile/assets/gorestaurantMobile.gif" alt="Ecoleta Mobile"  width="280"></img></h1>
 
 ## 🤔 Como contribuir
 
